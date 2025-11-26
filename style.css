@@ -1,0 +1,32 @@
+body {
+    /* Define o caminho para a sua imagem de fundo */
+    background-image: url('natureza.jpg'); 
+    background-size: cover; /* Faz com que a imagem cubra toda a área */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Cor do texto */
+    text-align: center;
+    height: 100vh; /* Altura total da viewport */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor leitura */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
